@@ -1,0 +1,50 @@
+﻿Build started 5/10/2019 4:02:09 PM.
+     1>Project "C:\dev\dyn_win_tools\diw_single_score_type\diw_single_score_type\diw_single_score_type.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\dev\OpenMS-2.2.0-src\src\openms\include" /I"C:\dev\qt-src-4.8.7\include\QtCore" /I"C:\dev\qt-src-4.8.7\include" /I"C:\dev\openms-220\src\openms\include\\" /IC:\dev\contrib\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\diw_single_score_type.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\dev\OpenMS-2.2.0-src\src\openms\include" /I"C:\dev\qt-src-4.8.7\include\QtCore" /I"C:\dev\qt-src-4.8.7\include" /I"C:\dev\openms-220\src\openms\include\\" /IC:\dev\contrib\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\diw_single_score_type.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt diw_single_score_type.cpp
+         diw_single_score_type.cpp
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/FORMAT/XMLFile.h(94): warning C4251: 'OpenMS::Internal::XMLFile::schema_location_' : class 'OpenMS::String' needs to have dll-interface to be used by clients of class 'OpenMS::Internal::XMLFile'
+                 C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/String.h(57) : see declaration of 'OpenMS::String'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/FORMAT/XMLFile.h(97): warning C4251: 'OpenMS::Internal::XMLFile::schema_version_' : class 'OpenMS::String' needs to have dll-interface to be used by clients of class 'OpenMS::Internal::XMLFile'
+                 C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/String.h(57) : see declaration of 'OpenMS::String'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/FORMAT/XMLFile.h(100): warning C4251: 'OpenMS::Internal::XMLFile::enforced_encoding_' : class 'OpenMS::String' needs to have dll-interface to be used by clients of class 'OpenMS::Internal::XMLFile'
+                 C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/String.h(57) : see declaration of 'OpenMS::String'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/CONCEPT/Exception.h(154): warning C4251: 'OpenMS::Exception::BaseException::name_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OpenMS::Exception::BaseException'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/CONCEPT/Exception.h(157): warning C4251: 'OpenMS::Exception::BaseException::what_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OpenMS::Exception::BaseException'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/CONCEPT/PrecisionWrapper.h(107): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/CONCEPT/PrecisionWrapper.h(108): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/CONCEPT/PrecisionWrapper.h(110): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/DPosition.h(183): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/DPosition.h(184): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/DATASTRUCTURES/DPosition.h(187): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/Peak1D.h(171): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/Peak1D.h(172): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/Peak1D.h(174): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/ChromatogramPeak.h(180): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/ChromatogramPeak.h(181): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/ChromatogramPeak.h(183): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(69): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(70): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(72): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(88): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(89): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/METADATA/ProteinHit.h(91): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/MSSpectrum.h(210): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/MSSpectrum.h(211): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/MSSpectrum.h(222): warning C4068: unknown pragma
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/MSExperiment.h(316): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\dev\OpenMS-2.2.0-src\src\openms\include\OpenMS/KERNEL/MSExperiment.h(359): warning C4003: not enough actual parameters for macro 'max'
+     1>diw_single_score_type.cpp(614): warning C4101: 'inject_time' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\dyn_win_tools\diw_single_score_type\x64\Release\diw_single_score_type.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\dev\openms-220\src\openms\Release" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OpenMS.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\dev\dyn_win_tools\diw_single_score_type\x64\Release\diw_single_score_type.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\dyn_win_tools\diw_single_score_type\x64\Release\diw_single_score_type.lib" /MACHINE:X64 x64\Release\diw_single_score_type.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         diw_single_score_type.vcxproj -> C:\dev\dyn_win_tools\diw_single_score_type\x64\Release\diw_single_score_type.exe
+     1>Done Building Project "C:\dev\dyn_win_tools\diw_single_score_type\diw_single_score_type\diw_single_score_type.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.48
